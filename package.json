@@ -1,0 +1,24 @@
+{
+  "name": "message_bird_whataspp",
+  "version": "1.0.0",
+  "description": "Creating Api For Communication Between Slashrtcbot and Whataspp Channel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Whataspp"
+  ],
+  "author": "Faraz Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "messagebird": "^3.5.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "websocket": "^1.0.32"
+  }
+}
